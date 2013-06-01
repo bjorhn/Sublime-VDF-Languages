@@ -87,7 +87,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(integer|choices|string|flags|target_destination|target_source|color255|studio)\b</string>
+			<string>\b(?i)(integer|choices|string|flags|target_destination|target_source|color255|studio|sprite|sound|size)\b</string>
 			<key>name</key>
 			<string>storage.type.fgd</string>
 		</dict>
