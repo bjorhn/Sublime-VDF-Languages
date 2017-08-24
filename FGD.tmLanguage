@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>fgd</string>
+		<string>qc</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
@@ -90,6 +91,12 @@
 			<string>\b(?i)(integer|choices|string|flags|target_destination|target_source|color255|studio|sprite|sound|size)\b</string>
 			<key>name</key>
 			<string>storage.type.fgd</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\$(alwayscollapse|animation|animblocksize|append|attachment|autocenter|bbox|body|bodygroup|bonemerge|calctransitions|cbox|cd|cdmaterials|cliptotextures|cmdlist|collapsebones|collisionjoints|collisionmodel|collisiontext|contents|continue|controller|declareanimation|declaresequence|definebone|definemacro|externaltextures|eyeposition|forcephonemecrossfade|forcereal|gamma|hbox|hboxset|hgroup|hierarchy|ikautoplaylock|ikchain|illumposition|include|includemodel|insertbone|jigglebone|jointcontents|jointsurfaceprop|keyvalues|limitrotation|lockbonelengths|lockdefinebones|lod|model|modelname|mostlyopaque|noforcedfade|obsolete|opaque|origin|popd|poseparameter|prepend|proceduralbones|pushd|realignbones|renamebone|renamematerial|root|scale|screenalign|sequence|skipboneinbbox|staticprop|surfaceprop|texturegroup|upaxis|weightlist|zbrush)\b</string>
+			<key>name</key>
+			<string>variable.language.fgd</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
