@@ -6,6 +6,7 @@
 	<array>
 		<string>fgd</string>
 		<string>qc</string>
+		<string>vdf</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
@@ -15,7 +16,7 @@
 	<key>foldingStopMarker</key>
 	<string>(?&lt;!\*)\*\*/|^\s*\}</string>
 	<key>name</key>
-	<string>FGD</string>
+	<string>Valve Data File</string>
 	<key>patterns</key>
 	<array>
 		<dict>
